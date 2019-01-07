@@ -3,7 +3,7 @@
 @Version: 
 @Author: biofool2@gmail.com
 @Date: 2019-01-03 10:48:50
-@LastEditTime: 2019-01-03 11:44:47
+@LastEditTime: 2019-01-04 15:40:46
 @LastEditors: Please set LastEditors
 '''
 
@@ -16,7 +16,8 @@ def timeit(func):
         st = time.time()
         func(*args, **kwargs)
         et = time.time()
-        return "函数 %s 的运行时间为： %s s" % (func.__name__, (st - et))
+        print("函数 %s 的运行时间为： %s s" % (func.__name__, (st - et)))
+        return func(*args, **kwargs)
     return wrapper
 
 
