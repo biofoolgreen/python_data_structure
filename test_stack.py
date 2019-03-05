@@ -1,9 +1,9 @@
 '''
 @Description: 实现栈的数据结构
 @Version: 
-@Author: liguoying@iiotos.com
+@Author: biofool2@gmail.com
 @Date: 2018-12-07 23:53:26
-@LastEditTime: 2018-12-08 17:49:34
+@LastEditTime: 2019-03-06 00:47:27
 @LastEditors: Please set LastEditors
 '''
 
